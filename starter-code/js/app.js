@@ -2,7 +2,7 @@ var app = angular.module("FruitVeggiesApp", []);
 app.controller("AppCrtl", ["$scope", function($scope){
 
 	
-	$scope.fruitVeggies = fruit.concat(vegetables).shuffle();
+	$scope.fruitVeggies = fruit.concat(vegetables);
 
 	$scope.fruitColumn = [];
 
